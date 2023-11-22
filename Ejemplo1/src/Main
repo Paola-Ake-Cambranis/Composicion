@@ -1,0 +1,9 @@
+
+class Main {
+  public static void main(String[] args) {
+    Banco banco = new Banco("BBVA");
+    Empleado empleadito = new Empleado("Paola");
+
+    System.out.println(empleadito.getNombreBanco() + " es un empleado de " + banco.getNombreBanco());
+  }
+}
